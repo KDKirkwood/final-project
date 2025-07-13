@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSS Documentation - Indy Eats</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f9f9f9;
+    }
+
+    h1 {
+      color: #1d3557;
+      margin-bottom: 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: #fff;
+    }
+
+    th,
+    td {
+      border: 1px solid #ccc;
+      padding: 12px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      background-color: #a8dadc;
+      color: #003049;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f1faee;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>CSS Documentation – Indy Eats Final Project</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>CSS Rule</th>
+        <th>Explanation</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>* { box-sizing: border-box; }</td>
+        <td>Keeps padding and borders from messing up sizing — makes layout way easier to manage.</td>
+      </tr>
+      <tr>
+        <td>body { font-family: Arial; }</td>
+        <td>Makes sure the text looks clean and easy to read across the whole site.</td>
+      </tr>
+      <tr>
+        <td>nav ul { display: flex; justify-content: center; }</td>
+        <td>Uses Flexbox to center the nav links across the top.</td>
+      </tr>
+      <tr>
+        <td>.flip-card, .flip-card-inner</td>
+        <td>Lets the flip cards spin around when you hover — it’s all done with transform and 3D styles.</td>
+      </tr>
+      <tr>
+        <td>.grid-layout { display: grid; grid-template-columns... }</td>
+        <td>Lays out articles in a grid that adjusts depending on screen size.</td>
+      </tr>
+      <tr>
+        <td>@media screen and (max-width: 600px)</td>
+        <td>Tweaks the layout for phones — makes nav stack and flip cards go vertical.</td>
+      </tr>
+      <tr>
+        <td>footer { background-color, padding }</td>
+        <td>Gives the footer matching colors and padding so it looks clean and consistent.</td>
+      </tr>
+      <tr>
+        <td>.flip-card-back a { background-color, border-radius }</td>
+        <td>Makes the flip card buttons look clickable and styled — rounded and colored.</td>
+      </tr>
+      <tr>
+        <td>img { max-width: 100%; height: auto }</td>
+        <td>Keeps images from overflowing — they resize nicely in their containers.</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>
